@@ -17,7 +17,7 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: "calibri", sans-serif;
   
 }
 
@@ -30,35 +30,61 @@ body {
   color : white;
   position: relative;
   text-align :center;
-  font-size: 6em;
+  font-size: 3em;
   
+
 }
 
 #recipehistory {
   margin: 50px 150px 10px;
-  background-color : green;
   text-align: center;
+  
   border-bottom: solid;
 }
 
 .historytext {
-  text-align: center;
-  font-size: 20px;
-  background-color: blue;
+  font-size: 31px;
+  
+  margin : 0 auto;
   
 }
 
+.imgstyleHistory {
+  width : 350px;
+  height : auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.imgstyleIngredients {
+ width : 300px;
+ height : auto;
+ margin-top: 20px;
+ margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 #ingredients{
-  background-color: crimson;
   margin: 50px 150px 10px;
   border-bottom: solid;
-  text-align: center;
+  list-style: inside;
+  list-style-type: "-" ;
+
 }
 
 #directions{
-  background-color: darksalmon;
-  text-align: center;
-  margin: 50px 150px 10px;
+  list-style: inside;
+  margin: 50px 150px 100px;
+  margin-bottom: 100px;
+ 
+}
+
+li {
+  margin-left: 40px;
+  font-size: 20px;
   
 }
 
