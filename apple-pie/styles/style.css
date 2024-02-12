@@ -32,3 +32,15 @@ body {
   font-size: 6em;
   
 }
+
+#recipehistory {
+  margin: 50px 150px 10px
+  
+}
+
+.historytext {
+  text-align: center justify;
+  width: 850px;
+  font-size: 30px;
+  
+}
