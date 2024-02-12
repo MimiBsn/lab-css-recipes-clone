@@ -21,4 +21,14 @@ body {
 }
 
 /* STYLES */
-/* Write your CSS below */
+.headerBg {
+  background-image: url('/apple-pie/images/apple-pie.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 500px; 
+  color : white;
+  position: relative;
+  text-align :center;
+  font-size: 6em;
+  
+}
